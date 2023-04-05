@@ -1,0 +1,104 @@
+.anime-card {
+    background-image: url("https://t4.ftcdn.net/jpg/05/28/22/23/240_F_528222303_8yzuZ48OeTDH6ssMMBeE2icfOOT3EzQi.jpg");
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+  }
+  .anime-list-heading {
+    margin-bottom: 1rem;
+  }  
+  
+  .anime-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .anime-card select {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .anime-card select:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0 0 0 2px #0077ff33;
+  }
+  
+  .anime-card button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0077ff;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .anime-card button:hover {
+    background-color: #005ae6;
+  }
+  .anime-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .anime-container{
+    align-items: center;
+  }
+  
+  .anime-item {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://t4.ftcdn.net/jpg/02/91/26/03/240_F_291260326_eGA8x9SOdpioDBnbVjnIWeQMbBMqfRU9.jpg");
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .anime-item h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .status-container {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .status-container label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .status-container input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .status-container input[type="checkbox"]:checked + span {
+    color: #666;
+    text-decoration: line-through;
+  }
+  
+  .status-container input[type="checkbox"]:hover {
+    opacity: 0.7;
+  }
+  
